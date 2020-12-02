@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+  background: lightgrey;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.containers {
+  max-width: 100vh;
+  overflow: hidden;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+header {
+  margin: 20px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 40%;
+  width: 60%;
+}
+
+.logo {
+  margin: 5px;
+  padding: 5px;
+}
+
+.logo a {
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+header a {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  background-color: rgba(138, 138, 138, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerImg {
+  background-image: url(blob2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.footerImg {
+  background-image: url(blob2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.top {
+  border: 1px solid blue;
+}
+
+.text-box {
+  max-width: 60%;
+  color: white;
+  text-justify: center;
+  margin: auto 0;
+}
+
+.top section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.main {
+  /* border: 1px solid green; */
+}
+
+.card {
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  padding: 25px;
+  display: block;
+  background-color: wheat;
+}
+
+.blog {
+  position: relative;
+  bottom: 20px;
+}
+
+.slug {
+  padding: 5px 0px;
+  display: block;
+  line-height: 10px;
+}
+
+.slug p {
+  font-style: italic;
+}
+
+.banner {
+  background-color: #fff;
+  margin: 15px 0px;
+  padding: 5px;
+  /* border: 1px solid yellow; */
+  border-radius: 10px;
+}
+
+.links {
+  margin: 5px auto;
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.workshop {
+  margin: 5px;
+  padding: 10px;
+  max-width: 100%;
+  background-color: palegoldenrod;
+  border-radius: 5px;
+}
+
+.short {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.quick-links {
+  width: 30%;
+  padding: 10px;
+  background-color: palegoldenrod;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.links section:hover {
+  transform: scale(1.05);
+  transition: all 0.05s ease;
+}
+
+footer {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+input {
+  margin: 5px;
+  border-radius: 5px;
+  display: block;
+}
